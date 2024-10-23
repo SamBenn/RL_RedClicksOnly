@@ -1,13 +1,13 @@
-package com.example;
+package com.MyBulwark.RedClicksOnly;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class RedClicksOnlyTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(RedClicksOnlyPlugin.class);
 		RuneLite.main(args);
 	}
 }
